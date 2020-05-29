@@ -1,0 +1,8 @@
+prefix=/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_evaluation
+
+Name: rotors_evaluation
+Description: Description of rotors_evaluation
+Version: 2.2.3
+Cflags: 
+Libs: -L/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_evaluation/lib 
+Requires: 

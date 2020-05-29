@@ -1,0 +1,1 @@
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake

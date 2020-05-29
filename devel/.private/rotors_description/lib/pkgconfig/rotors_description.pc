@@ -1,0 +1,8 @@
+prefix=/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_description
+
+Name: rotors_description
+Description: Description of rotors_description
+Version: 2.2.3
+Cflags: 
+Libs: -L/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_description/lib 
+Requires: 

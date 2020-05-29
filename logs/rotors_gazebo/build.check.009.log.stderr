@@ -1,0 +1,24 @@
+CMake Warning (dev) at /usr/local/share/cmake-3.15/Modules/FindBoost.cmake:1273 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "chrono" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+[36mCall Stack (most recent call first):[0m
+  /usr/local/share/cmake-3.15/Modules/FindBoost.cmake:1907 (_Boost_MISSING_DEPENDENCIES)
+  /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:108 (find_package)
+  CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[31m[1mCMake Error[0m at /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:197 (message):
+  generate_messages() must be called before catkin_package() in project
+  'rotors_gazebo'
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:63 (generate_messages)
+
+
+make: *** [cmake_check_build_system] Error 1

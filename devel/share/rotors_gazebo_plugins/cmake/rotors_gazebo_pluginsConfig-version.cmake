@@ -1,0 +1,1 @@
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo_plugins/share/rotors_gazebo_plugins/cmake/rotors_gazebo_pluginsConfig-version.cmake

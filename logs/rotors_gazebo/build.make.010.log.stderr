@@ -1,0 +1,13 @@
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp:45:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kvoid[m[K’
+ void serial_cmdCallback(const rotors_gazebo::serial &msg)
+[01;32m[K ^[m[K
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp:71:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_cmdCallback[m[K’ was not declared in this scope
+   ros::Subscriber cmd_sub = nh.subscribe("serial_cmd",1,serial_cmdCallback);
+[01;32m[K                                                         ^[m[K
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp:106:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_msg[m[K’ was not declared in this scope
+     if (serial_msg.header.seq != last_seq)
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/waypoint_publisher.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,8 @@
+prefix=/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_hil_interface
+
+Name: rotors_hil_interface
+Description: Description of rotors_hil_interface
+Version: 2.2.3
+Cflags: -I/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_hil_interface/include
+Libs: -L/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_hil_interface/lib -lrotors_hil_interface
+Requires: geometry_msgs mav_msgs mavros mavros_msgs roscpp sensor_msgs

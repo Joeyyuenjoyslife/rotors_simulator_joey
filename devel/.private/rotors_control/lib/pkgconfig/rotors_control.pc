@@ -1,0 +1,8 @@
+prefix=/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_control
+
+Name: rotors_control
+Description: Description of rotors_control
+Version: 2.2.3
+Cflags: -I/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_control/include
+Libs: -L/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_control/lib -llee_position_controller -lroll_pitch_yawrate_thrust_controller
+Requires: geometry_msgs mav_msgs nav_msgs roscpp sensor_msgs

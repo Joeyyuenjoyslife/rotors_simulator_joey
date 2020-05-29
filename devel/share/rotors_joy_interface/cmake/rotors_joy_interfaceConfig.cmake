@@ -1,0 +1,1 @@
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake

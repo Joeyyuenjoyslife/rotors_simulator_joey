@@ -1,0 +1,6 @@
+rotors_simulator-master/rotors_joy_interface
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_joy_interface/cmake.lock /home/joeyyu/catkin_ws_eth_sim/devel/./cmake.lock
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_joy_interface/lib/pkgconfig/rotors_joy_interface.pc /home/joeyyu/catkin_ws_eth_sim/devel/lib/pkgconfig/rotors_joy_interface.pc
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface /home/joeyyu/catkin_ws_eth_sim/devel/lib/rotors_joy_interface/rotors_joy_interface
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake /home/joeyyu/catkin_ws_eth_sim/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake /home/joeyyu/catkin_ws_eth_sim/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/serial.l

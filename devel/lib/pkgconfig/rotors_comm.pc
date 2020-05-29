@@ -1,0 +1,1 @@
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_comm/lib/pkgconfig/rotors_comm.pc

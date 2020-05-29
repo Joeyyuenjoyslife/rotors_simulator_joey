@@ -1,0 +1,5 @@
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp:31:35:[m[K [01;31m[Kfatal error: [m[Krotors_gazebo::serial.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/waypoint_publisher.dir/all] Error 2
+make: *** [all] Error 2

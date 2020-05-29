@@ -1,0 +1,10 @@
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp:250:9:[m[K [01;31m[Kerror: [m[Kduplicate case value
+         case 5:
+[01;32m[K         ^[m[K
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp:229:9:[m[K [01;31m[Kerror: [m[Kpreviously used here
+         case 5:
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/waypoint_publisher.dir/all] Error 2
+make: *** [all] Error 2

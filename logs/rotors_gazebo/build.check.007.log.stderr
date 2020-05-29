@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/CMakeLists.txt:59:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+
+make: *** [cmake_check_build_system] Error 1
