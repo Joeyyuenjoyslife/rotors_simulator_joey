@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/PositionCommand.js"
   "/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/serial.js"
   "CMakeFiles/rotors_gazebo_generate_messages_nodejs"
 )

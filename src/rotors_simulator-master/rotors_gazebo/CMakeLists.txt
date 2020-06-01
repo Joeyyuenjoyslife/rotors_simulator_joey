@@ -49,11 +49,14 @@ find_package(catkin REQUIRED COMPONENTS gazebo_msgs geometry_msgs mav_msgs roscp
 add_message_files(
   FILES
   serial.msg
+  PositionCommand.msg
 )
 
 generate_messages(
  DEPENDENCIES
  std_msgs
+ geometry_msgs
+ 
 )
 
 
@@ -73,6 +76,10 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 add_executable(waypoint_publisher src/waypoint_publisher.cpp)
 target_link_libraries(waypoint_publisher ${catkin_LIBRARIES})
 add_dependencies(waypoint_publisher ${catkin_EXPORTED_TARGETS})
+
+add_executable(waypoint_publisher_btraj src/waypoint_publisher_btraj.cpp)
+target_link_libraries(waypoint_publisher_btraj ${catkin_LIBRARIES})
+add_dependencies(waypoint_publisher_btraj ${catkin_EXPORTED_TARGETS})
 
 add_executable(waypoint_publisher_file src/waypoint_publisher_file.cpp)
 target_link_libraries(waypoint_publisher_file ${catkin_LIBRARIES})

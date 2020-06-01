@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h"
   "/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/serial.h"
   "CMakeFiles/rotors_gazebo_generate_messages_cpp"
 )

@@ -1,0 +1,75 @@
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target gazebo_msgs_generate_messages_eus
+[  0%] Built target gazebo_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target gazebo_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target gazebo_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  4%] Built target sdf
+[35m[1mScanning dependencies of target waypoint_publisher_btraj[0m
+[35m[1mScanning dependencies of target hovering_example[0m
+[ 14%] Built target waypoint_publisher_file
+[ 23%] Built target waypoint_publisher
+[ 23%] Built target _rotors_gazebo_generate_messages_check_deps_serial
+[ 23%] Built target _rotors_gazebo_generate_messages_check_deps_PositionCommand
+[ 38%] Built target rotors_gazebo_generate_messages_eus
+[ 47%] Built target rotors_gazebo_generate_messages_nodejs
+[ 57%] Built target rotors_gazebo_generate_messages_cpp
+[ 66%] Built target rotors_gazebo_generate_messages_lisp
+[ 80%] Built target rotors_gazebo_generate_messages_py
+[ 80%] Built target rotors_gazebo_generate_messages
+[ 90%] [32mBuilding CXX object CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/waypoint_publisher_btraj.dir/src/waypoint_publisher_btraj.cpp.o[0m
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher_btraj.cpp:127:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   return 0;
+[01;32m[K   ^[m[K
+[01m[K/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher_btraj.cpp:128:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+CMakeFiles/waypoint_publisher_btraj.dir/build.make:62: recipe for target 'CMakeFiles/waypoint_publisher_btraj.dir/src/waypoint_publisher_btraj.cpp.o' failed
+make[2]: *** [CMakeFiles/waypoint_publisher_btraj.dir/src/waypoint_publisher_btraj.cpp.o] Error 1
+CMakeFiles/Makefile2:1931: recipe for target 'CMakeFiles/waypoint_publisher_btraj.dir/all' failed
+make[1]: *** [CMakeFiles/waypoint_publisher_btraj.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+[ 95%] [32m[1mLinking CXX executable /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/rotors_gazebo/hovering_example[0m
+[ 95%] Built target hovering_example
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

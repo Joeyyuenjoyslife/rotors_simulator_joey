@@ -1,0 +1,73 @@
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target gazebo_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target mav_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target gazebo_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target gazebo_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  0%] Built target mav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _rotors_gazebo_generate_messages_check_deps_PositionCommand[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target waypoint_publisher[0m
+[  5%] Built target sdf
+[ 15%] Built target waypoint_publisher_file
+[ 26%] Built target hovering_example
+[ 31%] [32mBuilding CXX object CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o[0m
+[ 31%] Built target _rotors_gazebo_generate_messages_check_deps_serial
+[ 31%] Built target _rotors_gazebo_generate_messages_check_deps_PositionCommand
+[ 47%] [34m[1mGenerating Javascript code from rotors_gazebo/serial.msg[0m
+[ 47%] [34m[1mGenerating EusLisp code from rotors_gazebo/PositionCommand.msg[0m
+[ 47%] [34m[1mGenerating EusLisp code from rotors_gazebo/serial.msg[0m
+[ 52%] [34m[1mGenerating Lisp code from rotors_gazebo/PositionCommand.msg[0m
+[ 57%] [34m[1mGenerating Javascript code from rotors_gazebo/PositionCommand.msg[0m
+[ 63%] [34m[1mGenerating C++ code from rotors_gazebo/PositionCommand.msg[0m
+[ 68%] [34m[1mGenerating Python from MSG rotors_gazebo/PositionCommand[0m
+[ 73%] [34m[1mGenerating Lisp code from rotors_gazebo/serial.msg[0m
+[ 78%] [34m[1mGenerating Python from MSG rotors_gazebo/serial[0m
+[ 78%] Built target rotors_gazebo_generate_messages_nodejs
+[ 84%] [34m[1mGenerating C++ code from rotors_gazebo/serial.msg[0m
+[ 89%] [34m[1mGenerating EusLisp manifest code for rotors_gazebo[0m
+[ 89%] Built target rotors_gazebo_generate_messages_lisp
+[ 94%] [34m[1mGenerating Python msg __init__.py for rotors_gazebo[0m
+[ 94%] Built target rotors_gazebo_generate_messages_cpp
+[ 94%] Built target rotors_gazebo_generate_messages_py
+[ 94%] Built target rotors_gazebo_generate_messages_eus
+[ 94%] Built target rotors_gazebo_generate_messages
+[100%] [32m[1mLinking CXX executable /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher[0m
+[100%] Built target waypoint_publisher

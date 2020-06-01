@@ -129,7 +129,10 @@ file(INSTALL DESTINATION "/home/joeyyu/catkin_ws_eth_sim/install" TYPE FILE FILE
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo/msg" TYPE FILE FILES "/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo/msg" TYPE FILE FILES
+    "/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg"
+    "/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

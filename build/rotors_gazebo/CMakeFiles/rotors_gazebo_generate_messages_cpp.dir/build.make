@@ -53,17 +53,28 @@ CMAKE_BINARY_DIR = /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo
 # Include the progress variables for this target.
 include CMakeFiles/rotors_gazebo_generate_messages_cpp.dir/progress.make
 
+CMakeFiles/rotors_gazebo_generate_messages_cpp: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h
 CMakeFiles/rotors_gazebo_generate_messages_cpp: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/serial.h
 
+
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h: /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from rotors_gazebo/PositionCommand.msg"
+	cd /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo && /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/serial.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/serial.h: /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/serial.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/serial.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from rotors_gazebo/serial.msg"
-	cd /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo && /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from rotors_gazebo/serial.msg"
+	cd /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo && /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 rotors_gazebo_generate_messages_cpp: CMakeFiles/rotors_gazebo_generate_messages_cpp
+rotors_gazebo_generate_messages_cpp: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/PositionCommand.h
 rotors_gazebo_generate_messages_cpp: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/serial.h
 rotors_gazebo_generate_messages_cpp: CMakeFiles/rotors_gazebo_generate_messages_cpp.dir/build.make
 

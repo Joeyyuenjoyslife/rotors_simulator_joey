@@ -53,16 +53,26 @@ CMAKE_BINARY_DIR = /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo
 # Include the progress variables for this target.
 include CMakeFiles/rotors_gazebo_generate_messages_nodejs.dir/progress.make
 
+CMakeFiles/rotors_gazebo_generate_messages_nodejs: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/PositionCommand.js
 CMakeFiles/rotors_gazebo_generate_messages_nodejs: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/serial.js
 
+
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/PositionCommand.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/PositionCommand.js: /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/PositionCommand.js: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/PositionCommand.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/PositionCommand.js: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from rotors_gazebo/PositionCommand.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg
 
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/serial.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/serial.js: /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/serial.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from rotors_gazebo/serial.msg"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from rotors_gazebo/serial.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg
 
 rotors_gazebo_generate_messages_nodejs: CMakeFiles/rotors_gazebo_generate_messages_nodejs
+rotors_gazebo_generate_messages_nodejs: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/PositionCommand.js
 rotors_gazebo_generate_messages_nodejs: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/gennodejs/ros/rotors_gazebo/msg/serial.js
 rotors_gazebo_generate_messages_nodejs: CMakeFiles/rotors_gazebo_generate_messages_nodejs.dir/build.make
 

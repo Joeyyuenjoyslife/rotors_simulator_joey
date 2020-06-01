@@ -584,6 +584,19 @@ rotors_gazebo_generate_messages_py/fast:
 .PHONY : rotors_gazebo_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named _rotors_gazebo_generate_messages_check_deps_PositionCommand
+
+# Build rule for target.
+_rotors_gazebo_generate_messages_check_deps_PositionCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _rotors_gazebo_generate_messages_check_deps_PositionCommand
+.PHONY : _rotors_gazebo_generate_messages_check_deps_PositionCommand
+
+# fast build rule for target.
+_rotors_gazebo_generate_messages_check_deps_PositionCommand/fast:
+	$(MAKE) -f CMakeFiles/_rotors_gazebo_generate_messages_check_deps_PositionCommand.dir/build.make CMakeFiles/_rotors_gazebo_generate_messages_check_deps_PositionCommand.dir/build
+.PHONY : _rotors_gazebo_generate_messages_check_deps_PositionCommand/fast
+
+#=============================================================================
 # Target rules for targets named mav_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -935,6 +948,19 @@ std_srvs_generate_messages_py/fast:
 .PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named waypoint_publisher_btraj
+
+# Build rule for target.
+waypoint_publisher_btraj: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 waypoint_publisher_btraj
+.PHONY : waypoint_publisher_btraj
+
+# fast build rule for target.
+waypoint_publisher_btraj/fast:
+	$(MAKE) -f CMakeFiles/waypoint_publisher_btraj.dir/build.make CMakeFiles/waypoint_publisher_btraj.dir/build
+.PHONY : waypoint_publisher_btraj/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_eus
 
 # Build rule for target.
@@ -1131,6 +1157,33 @@ src/waypoint_publisher.cpp.s:
 	$(MAKE) -f CMakeFiles/waypoint_publisher.dir/build.make CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.s
 .PHONY : src/waypoint_publisher.cpp.s
 
+src/waypoint_publisher_btraj.o: src/waypoint_publisher_btraj.cpp.o
+
+.PHONY : src/waypoint_publisher_btraj.o
+
+# target to build an object file
+src/waypoint_publisher_btraj.cpp.o:
+	$(MAKE) -f CMakeFiles/waypoint_publisher_btraj.dir/build.make CMakeFiles/waypoint_publisher_btraj.dir/src/waypoint_publisher_btraj.cpp.o
+.PHONY : src/waypoint_publisher_btraj.cpp.o
+
+src/waypoint_publisher_btraj.i: src/waypoint_publisher_btraj.cpp.i
+
+.PHONY : src/waypoint_publisher_btraj.i
+
+# target to preprocess a source file
+src/waypoint_publisher_btraj.cpp.i:
+	$(MAKE) -f CMakeFiles/waypoint_publisher_btraj.dir/build.make CMakeFiles/waypoint_publisher_btraj.dir/src/waypoint_publisher_btraj.cpp.i
+.PHONY : src/waypoint_publisher_btraj.cpp.i
+
+src/waypoint_publisher_btraj.s: src/waypoint_publisher_btraj.cpp.s
+
+.PHONY : src/waypoint_publisher_btraj.s
+
+# target to generate assembly for a file
+src/waypoint_publisher_btraj.cpp.s:
+	$(MAKE) -f CMakeFiles/waypoint_publisher_btraj.dir/build.make CMakeFiles/waypoint_publisher_btraj.dir/src/waypoint_publisher_btraj.cpp.s
+.PHONY : src/waypoint_publisher_btraj.cpp.s
+
 src/waypoint_publisher_file.o: src/waypoint_publisher_file.cpp.o
 
 .PHONY : src/waypoint_publisher_file.o
@@ -1202,6 +1255,7 @@ help:
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... rotors_gazebo_generate_messages_py"
+	@echo "... _rotors_gazebo_generate_messages_check_deps_PositionCommand"
 	@echo "... mav_msgs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_nodejs"
@@ -1230,6 +1284,7 @@ help:
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... list_install_components"
+	@echo "... waypoint_publisher_btraj"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... hovering_example"
 	@echo "... mav_msgs_generate_messages_cpp"
@@ -1247,6 +1302,9 @@ help:
 	@echo "... src/waypoint_publisher.o"
 	@echo "... src/waypoint_publisher.i"
 	@echo "... src/waypoint_publisher.s"
+	@echo "... src/waypoint_publisher_btraj.o"
+	@echo "... src/waypoint_publisher_btraj.i"
+	@echo "... src/waypoint_publisher_btraj.s"
 	@echo "... src/waypoint_publisher_file.o"
 	@echo "... src/waypoint_publisher_file.i"
 	@echo "... src/waypoint_publisher_file.s"

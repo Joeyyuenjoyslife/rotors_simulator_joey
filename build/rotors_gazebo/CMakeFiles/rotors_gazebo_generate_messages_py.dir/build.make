@@ -53,22 +53,33 @@ CMAKE_BINARY_DIR = /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo
 # Include the progress variables for this target.
 include CMakeFiles/rotors_gazebo_generate_messages_py.dir/progress.make
 
+CMakeFiles/rotors_gazebo_generate_messages_py: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_PositionCommand.py
 CMakeFiles/rotors_gazebo_generate_messages_py: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_serial.py
 CMakeFiles/rotors_gazebo_generate_messages_py: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/__init__.py
 
 
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_PositionCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_PositionCommand.py: /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_PositionCommand.py: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_PositionCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_PositionCommand.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG rotors_gazebo/PositionCommand"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg
+
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_serial.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_serial.py: /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_serial.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG rotors_gazebo/serial"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG rotors_gazebo/serial"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg
 
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/__init__.py: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_PositionCommand.py
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/__init__.py: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_serial.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for rotors_gazebo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for rotors_gazebo"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg --initpy
 
 rotors_gazebo_generate_messages_py: CMakeFiles/rotors_gazebo_generate_messages_py
+rotors_gazebo_generate_messages_py: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_PositionCommand.py
 rotors_gazebo_generate_messages_py: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/_serial.py
 rotors_gazebo_generate_messages_py: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/lib/python2.7/dist-packages/rotors_gazebo/msg/__init__.py
 rotors_gazebo_generate_messages_py: CMakeFiles/rotors_gazebo_generate_messages_py.dir/build.make

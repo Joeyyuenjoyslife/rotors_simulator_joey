@@ -36,6 +36,7 @@
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/rotors_gazebo_generate_messages_py.dir
+/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/_rotors_gazebo_generate_messages_check_deps_PositionCommand.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/mav_msgs_generate_messages_eus.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir
@@ -64,6 +65,7 @@
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/std_msgs_generate_messages_eus.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/list_install_components.dir
+/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/waypoint_publisher_btraj.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/hovering_example.dir
 /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles/mav_msgs_generate_messages_cpp.dir

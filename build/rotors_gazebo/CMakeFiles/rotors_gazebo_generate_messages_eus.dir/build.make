@@ -53,21 +53,31 @@ CMAKE_BINARY_DIR = /home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo
 # Include the progress variables for this target.
 include CMakeFiles/rotors_gazebo_generate_messages_eus.dir/progress.make
 
+CMakeFiles/rotors_gazebo_generate_messages_eus: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/PositionCommand.l
 CMakeFiles/rotors_gazebo_generate_messages_eus: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/serial.l
 CMakeFiles/rotors_gazebo_generate_messages_eus: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/manifest.l
 
 
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/PositionCommand.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/PositionCommand.l: /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/PositionCommand.l: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/PositionCommand.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/PositionCommand.l: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from rotors_gazebo/PositionCommand.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/PositionCommand.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg
+
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/serial.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/serial.l: /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/serial.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from rotors_gazebo/serial.msg"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from rotors_gazebo/serial.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg/serial.msg -Irotors_gazebo:/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p rotors_gazebo -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg
 
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for rotors_gazebo"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo rotors_gazebo std_msgs
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joeyyu/catkin_ws_eth_sim/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for rotors_gazebo"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo rotors_gazebo std_msgs geometry_msgs
 
 rotors_gazebo_generate_messages_eus: CMakeFiles/rotors_gazebo_generate_messages_eus
+rotors_gazebo_generate_messages_eus: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/PositionCommand.l
 rotors_gazebo_generate_messages_eus: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/msg/serial.l
 rotors_gazebo_generate_messages_eus: /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/share/roseus/ros/rotors_gazebo/manifest.l
 rotors_gazebo_generate_messages_eus: CMakeFiles/rotors_gazebo_generate_messages_eus.dir/build.make
