@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_control:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_control/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_control/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/joeyyu/catkin_ws_eth_sim/build/rotors_control"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_control:$ROS_PACKAGE_PATH"

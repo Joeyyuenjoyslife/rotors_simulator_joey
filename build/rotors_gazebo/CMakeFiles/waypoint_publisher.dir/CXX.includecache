@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo/include/rotors_gazebo/serial.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
 /home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_gazebo/src/waypoint_publisher.cpp
 fstream
 -

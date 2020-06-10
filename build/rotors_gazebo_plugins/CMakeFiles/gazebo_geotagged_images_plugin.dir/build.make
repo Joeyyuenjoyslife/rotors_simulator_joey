@@ -189,7 +189,6 @@ gazebo_geotagged_images_plugin_EXTERNAL_OBJECTS =
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so

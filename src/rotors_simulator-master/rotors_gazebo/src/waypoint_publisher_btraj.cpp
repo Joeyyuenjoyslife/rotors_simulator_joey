@@ -84,7 +84,7 @@ int main(int argc, char** argv) {
   const float DEG_2_RAD = M_PI / 180.0;
 
 
-
+   double desired_yaw = 0;
   // Wait for some time to create the ros publisher.
   //ros::Duration(delay).sleep();
 
@@ -95,12 +95,13 @@ int main(int argc, char** argv) {
 ros::Rate loop_rate(50);
 while (ros::ok())
 {
+   
     if(has_cmd == true)
     {
         trajectory_msg.header.stamp = ros::Time::now();
         Eigen::Vector3d desired_position(cmd_msg.position.x, cmd_msg.position.y,
                                          cmd_msg.position.z);
-        double desired_yaw = cmd_msg.yaw;
+        desired_yaw = desired_yaw+0.003;
         mav_msgs::msgMultiDofJointTrajectoryFromPositionYaw(desired_position,
                                                             desired_yaw, &trajectory_msg);
 

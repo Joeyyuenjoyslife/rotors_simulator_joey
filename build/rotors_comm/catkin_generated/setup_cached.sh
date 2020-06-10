@@ -8,6 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_comm:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_comm/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_comm/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/joeyyu/catkin_ws_eth_sim/build/rotors_comm"
+export PYTHONPATH="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_comm/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/joeyyu/catkin_ws_eth_sim/devel/.private/rotors_comm/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/joeyyu/catkin_ws_eth_sim/src/rotors_simulator-master/rotors_comm:$ROS_PACKAGE_PATH"
